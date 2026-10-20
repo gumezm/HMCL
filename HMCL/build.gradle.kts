@@ -54,6 +54,9 @@ if (buildNumber != null) {
     }
 }
 
+// 本 fork 使用独立版本标识，以区别于上游原版（GPLv3 附加条款 7(c)）
+version = "3.17.0.361-fork"
+
 val embedResources = configurations.register("embedResources")
 
 dependencies {
